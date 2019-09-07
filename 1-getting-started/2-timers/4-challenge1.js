@@ -1,7 +1,7 @@
-const theOneFunc = (x) => {
+const theOneFunc = x => {
     setTimeout((x) => {
-        console.log('Hello after ',x);
-    }, x * 1000);
+        console.log('Hello after ' + x + ' seconds');
+    }, x * 1000, x);
 };
 // Hello after 4 seconds
 // Hello after 8 seconds
