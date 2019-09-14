@@ -11,13 +11,13 @@ function fetch (url) {
   });
 }
 
-fetch('https://www.javascript.com/')
+fetch('https://www.javascript.com/')//IMPORTANTE
   .then(data => {
     console.log(data.length);
   });
 
-  (async function read() {
-    const data = await fetch('https://www.javascript.com/');
+  (async function read() {//IMPORTANTE
+    const data = await fetch('https://www.javascript.com/'); //IMPORTANTE
 
     console.log(data.length);
   })();

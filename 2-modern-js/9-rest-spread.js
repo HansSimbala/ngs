@@ -14,3 +14,4 @@ const newArray = [...restOfItems];
 const newObject = {
   ...person,
 };
+console.log(restOfItems);
